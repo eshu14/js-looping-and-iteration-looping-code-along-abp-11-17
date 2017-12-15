@@ -13,7 +13,7 @@ function maybeTrue() {
   return Math.random() >= 0.9;
 };
 function tailsNeverFails(){
-  tails=0;
+
     do
     {
       tails=tails+1;
