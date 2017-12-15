@@ -46,7 +46,7 @@ describe('index.js', () => {
     it('invokes Math.random() to simulate coin flips', () => {
       spy.returns(0.2);
 
-      tailsNeverFails();
+     tailsNeverFails();
 
       expect(spy.calledOnce).to.be.true;
     });

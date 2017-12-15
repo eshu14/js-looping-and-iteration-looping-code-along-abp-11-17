@@ -1,17 +1,22 @@
+const arr = [];
+let tails=0;
 function printBadges(arr)
 {
-  for(let i-0;i<arr.length;i++)
+  for(let i=0;i<arr.length;i++)
   {
-    console.log(`Welcome ${arr[i]}! Your are employee #${i}.`);
+    console.log(`Welcome ${arr[i]}! You are employee #${i+1}.`);
   }
+  return arr;
 
 };
+function maybeTrue() {
+  return Math.random() >= 0.9;
+};
 function tailsNeverFails(){
-  let tails=0;
-    while(Math.random() > 0)
+    //let rand=Math.random();
+    do
     {
-      tails++;
-
-    }
-    return (`You go ${tails} in a row!`);
+      tails=tails+1;
+    }while(maybeTrue());
+    return (`You got ${tails} tails in a row!`);
 };
