@@ -10,7 +10,7 @@ function printBadges(arr)
 
 };
 function maybeTrue() {
-  return Math.random() >= 0.9;
+  return Math.random() >= 0.1;
 };
 function tailsNeverFails(){
 
