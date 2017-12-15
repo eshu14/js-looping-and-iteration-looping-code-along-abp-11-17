@@ -1,5 +1,5 @@
 const arr = [];
-let tails=0;
+const tails=0;
 function printBadges(arr)
 {
   for(let i=0;i<arr.length;i++)
