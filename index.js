@@ -1,5 +1,5 @@
 const arr = [];
-let tails=0;
+//let tails=0;
 function printBadges(arr)
 {
   for(let i=0;i<arr.length;i++)
@@ -13,7 +13,7 @@ function maybeTrue() {
   return Math.random() >= 0.9;
 };
 function tailsNeverFails(){
-    //let rand=Math.random();
+    let tails=0;
     do
     {
       tails=tails+1;
